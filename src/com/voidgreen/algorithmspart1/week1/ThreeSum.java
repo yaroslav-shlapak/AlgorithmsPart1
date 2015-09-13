@@ -20,8 +20,8 @@ public class ThreeSum {
         return count;
     }
 
-    public static void main(String[] args) {
+/*    public static void main(String[] args) {
         int[] a = In.readInts(args[0]);
         System.out.println(count(a));
-    }
+    }*/
 }
