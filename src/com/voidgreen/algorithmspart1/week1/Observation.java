@@ -1,12 +1,13 @@
-package com.voidgreen.algorithmspart1;
+package com.voidgreen.algorithmspart1.week1;
 
-public class Main {
-
-
+/**
+ * Created by yaroslav on 9/13/15.
+ */
+public class Observation {
     public static void main(String[] args) {
 
         int[] numbers = {1, 2, 4, 8, 16, 32, 64};
-	// write your code here
+        // write your code here
         for(int i = 0; i < numbers.length; i++ ) {
             int num = 1000 * numbers[i];
             System.out.print(num + "\t");
