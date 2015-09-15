@@ -17,10 +17,10 @@
  ******************************************************************************/
 package com.voidgreen.algorithmspart1.week1assignments;
 
-import java.awt.Font;
-
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdDraw;
+
+import java.awt.*;
 
 public class PercolationVisualizer {
 
@@ -63,7 +63,9 @@ public class PercolationVisualizer {
     }
 
     public static void main(String[] args) {
-        In in = new In(args[0]);      // input file
+        String path = "C:\\Users\\y.shlapak\\IdeaProjects\\AlgortihmsPart1\\src\\com\\voidgreen\\algorithmspart1\\week1assignments\\";
+        String fileName = "input20.txt";
+        In in = new In(path + fileName);      // input file
         int N = in.readInt();         // N-by-N percolation system
 
         // turn on animation mode
