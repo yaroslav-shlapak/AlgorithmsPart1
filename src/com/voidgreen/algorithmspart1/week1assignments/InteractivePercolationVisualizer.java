@@ -14,8 +14,7 @@ package com.voidgreen.algorithmspart1.week1assignments;
 
 import edu.princeton.cs.algs4.StdDraw;
 import edu.princeton.cs.algs4.StdOut;
-import edu.princeton.cs.algs4.MinPQ;
-import edu.princeton.cs.algs4.StdIn;
+
 
 public class InteractivePercolationVisualizer {
 
