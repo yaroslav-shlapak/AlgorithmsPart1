@@ -54,15 +54,15 @@ public class QuickUnionUF {
     public static void main(String[] args) {
         QuickUnionUF qf = new QuickUnionUF(10);
         qf.printId();
-        qf.union(2, 4);
-        qf.union(4, 0);
-        qf.union(4, 7);
-        qf.union(5, 6);
-        qf.union(0, 3);
-        qf.union(4, 8);
-        qf.union(9, 1);
-        qf.union(5, 9);
-        qf.union(3, 1);
+        qf.union(3, 2);
+        qf.union(0, 6);
+        qf.union(5, 7);
+        qf.union(1, 6);
+        qf.union(0, 8);
+        qf.union(2, 7);
+        qf.union(1, 4);
+        qf.union(6, 3);
+        qf.union(3, 9);
         qf.printId();
     }
 }

@@ -96,4 +96,25 @@ public class WeightedQuickUnionUF {
         }
         count--;
     }
+    public void printId() {
+        for(int i = 0; i < parent.length; i++) {
+            System.out.print(parent[i] + " ");
+        }
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        WeightedQuickUnionUF qf = new WeightedQuickUnionUF(10);
+        qf.printId();
+        qf.union(3, 2);
+        qf.union(0, 6);
+        qf.union(5, 7);
+        qf.union(1, 6);
+        qf.union(0, 8);
+        qf.union(2, 7);
+        qf.union(1, 4);
+        qf.union(6, 3);
+        qf.union(3, 9);
+        qf.printId();
+    }
 }

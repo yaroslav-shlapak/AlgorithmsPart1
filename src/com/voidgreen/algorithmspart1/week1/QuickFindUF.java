@@ -39,12 +39,12 @@ public class QuickFindUF {
     public static void main(String[] args) {
         QuickFindUF qf = new QuickFindUF(10);
         qf.printId();
-        qf.union(7, 0);
-        qf.union(3, 5);
-        qf.union(8, 0);
-        qf.union(4, 1);
-        qf.union(4, 6);
-        qf.union(9, 6);
+        qf.union(0, 4);
+        qf.union(0, 9);
+        qf.union(1, 7);
+        qf.union(9, 1);
+        qf.union(7, 8);
+        qf.union(3, 1);
         qf.printId();
     }
 }
